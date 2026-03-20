@@ -1,0 +1,15 @@
+# CSV
+*.csv 
+!data/clean/**
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambiente virtual
+venv/
+.env/
+
+# VSCode
+.vscode/
