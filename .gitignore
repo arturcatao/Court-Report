@@ -1,6 +1,5 @@
 # CSV
-*.csv 
-!data/clean/**
+*.csv
 
 # Byte-compiled / optimized files
 __pycache__/
