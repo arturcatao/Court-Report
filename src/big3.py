@@ -1,3 +1,5 @@
+#separando os dados dos rankings do big3 em um arquivo separado
+
 import pandas as pd
 
 csv_players = "data/raw/atp_players.csv"
