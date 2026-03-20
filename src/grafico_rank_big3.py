@@ -6,7 +6,8 @@ df = pd.read_csv(CSV)
 
 players = ["Federer", "Nadal", "Djokovic"]
 
-df = df[df["rank"] <= 100]
+df = df[df["rank"] <= 50]
+df["ranking_date"] = pd.to_datetime(df["ranking_date"])
 
 plt.figure(figsize=(10, 6))
 
