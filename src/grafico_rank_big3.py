@@ -4,12 +4,16 @@ import matplotlib.pyplot as plt
 CSV = "data/clean/big3_rankings.csv"
 df = pd.read_csv(CSV)
 
-players = ["Federer", "Nadal", "Djokovic"]
-
-df = df[df["rank"] <= 50]
+df = df[df["rank"] <= 100]
 df["ranking_date"] = pd.to_datetime(df["ranking_date"])
 
 plt.figure(figsize=(10, 6))
+
+colors = {
+    "Federer": "green", # grass
+    "Nadal": "red", # clay
+    "Djokovic": "blue" # hardcourt
+}
 
 for player in df["name_last"].unique():
     sub = df[df["name_last"] == player].sort_values("ranking_date")
@@ -18,12 +22,13 @@ for player in df["name_last"].unique():
         sub["ranking_date"],
         sub["rank"],
         label=player,
-        linewidth=2
+        linewidth=2,
+        color = colors.get(player, "black")
     )
 
 plt.xlabel("Data")
 plt.ylabel("Rank")
-plt.title("Ranking ao longo do tempo")
+plt.title("Ranking do BIG3 ao longo do tempo")
 
 plt.gca().invert_yaxis()
 
