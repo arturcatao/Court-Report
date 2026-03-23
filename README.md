@@ -76,4 +76,4 @@ Em resumo: atribuição obrigatória, uso não-comercial apenas.
 
 ## Autor
 
-Desenvolvido por **Artur Catão** como projeto pessoal de aprendizado — 4º período de Ciência da Computação, UFCG.
+Desenvolvido por **Artur Catão** como projeto pessoal de aprendizado
