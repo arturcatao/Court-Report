@@ -32,7 +32,6 @@ for i, (_, row) in enumerate(df.iterrows()):
         color=colors.get(row["name_last"], "black")
     )
     
-    # 🔥 adicionar porcentagens em cima
     for j, v in enumerate(valores):
         plt.text(
             posicoes[j],
