@@ -55,4 +55,5 @@ plt.grid(axis="y", alpha=0.3)
 plt.ylim(0.6, 1.0)
 
 plt.tight_layout()
+plt.savefig("static/percentual_vit.png", dpi=150)
 plt.show()

@@ -36,4 +36,5 @@ plt.legend()
 plt.grid(alpha=0.3)
 
 plt.tight_layout()
+plt.savefig("static/big3_rank.png", dpi=150)
 plt.show()
