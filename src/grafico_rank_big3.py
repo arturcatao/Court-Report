@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-CSV = "data/clean/big3_rankings.csv"
+CSV = "data/processed/big3_rankings.csv"
 df = pd.read_csv(CSV)
 
 df = df[df["rank"] <= 100]

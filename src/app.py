@@ -6,7 +6,7 @@ st.title("Court Report")
 st.write("Dashboard do Big3")
 
 
-CSV = "data/clean/big3_rankings.csv"
+CSV = "data/processed/big3_rankings.csv"
 df = pd.read_csv(CSV)
 
 df = df[df["rank"] <= 100]
@@ -45,7 +45,7 @@ st.pyplot(fig)
 
 # /-/-/-/-/
 
-CSV = "data/clean/big3_matches.csv"
+CSV = "data/processed/big3_matches.csv"
 df = pd.read_csv(CSV)
 
 # categorias no eixo x

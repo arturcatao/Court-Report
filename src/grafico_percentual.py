@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-CSV = "data/clean/big3_matches.csv"
+CSV = "data/processed/big3_matches.csv"
 df = pd.read_csv(CSV)
 
 # categorias no eixo x
