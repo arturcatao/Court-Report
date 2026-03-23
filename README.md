@@ -34,6 +34,7 @@ Court-Report/
 ├── notebooks/        # Notebooks de limpeza e exploração
 ├── src/              # Scripts e dashboard
 │   └── app.py        # Dashboard Streamlit
+|   └── graficos
 ├── .gitignore
 └── README.md
 ```
