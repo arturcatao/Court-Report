@@ -10,8 +10,8 @@ Decidi começar a explorar as principais tecnologias da área de ciência de dad
 
 ## Análises
 
-- **Evolução do ranking** : comportamento do ranking dos três jogadores de 2000 a 2024
-- **Winrate por superfície** : percentual de vitórias em saibro, grama e quadra dura
+- **Evolução do ranking**: comportamento do ranking dos três jogadores de 2000 a 2024
+- **Winrate por superfície**: percentual de vitórias em saibro, grama e quadra dura
 
 ---
 
@@ -29,8 +29,8 @@ Decidi começar a explorar as principais tecnologias da área de ciência de dad
 ```
 Court-Report/
 ├── data/
-│   ├── raw/          # Dados originais (não versionados)
-│   └── clean/        # Dados processados (não versionados)
+│   ├── source/          # Dados originais (não versionados)
+│   └── processed/        # Dados processados (não versionados)
 ├── notebooks/        # Notebooks de limpeza e exploração
 ├── src/              # Scripts e dashboard
 │   └── app.py        # Dashboard Streamlit
@@ -66,7 +66,11 @@ Os dados de partidas e rankings utilizados neste projeto são provenientes do re
 
 > [github.com/JeffSackmann/tennis_atp](https://github.com/JeffSackmann/tennis_atp)
 
-Os dados são disponibilizados sob a licença [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/). Todo o crédito pelos dados pertence ao autor original.
+Os dados são disponibilizados sob a seguinte licença, conforme exigido pelo autor:
+
+> *Tennis databases, files, and algorithms by Jeff Sackmann / Tennis Abstract is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). Based on a work at https://github.com/JeffSackmann.*
+
+Em resumo: atribuição obrigatória, uso não-comercial apenas.
 
 ---
 
